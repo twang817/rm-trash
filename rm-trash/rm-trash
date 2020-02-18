@@ -28,8 +28,7 @@
 NOOPERAND=1
 NOSUCHFILE=2
 
-TRASHPATH="/home/$USER/.local/share/Trash"
-TRASHPATHROOT="/root/.local/share/Trash"
+TRASHPATH=${TRASHPATH:-"$HOME/.local/share/Trash"}
 
 RECURSIVE_FLAG=0
 OPTIONAL_ARGS=()
